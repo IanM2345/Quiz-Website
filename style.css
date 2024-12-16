@@ -1,0 +1,82 @@
+body {
+    color: grey;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding-top: 2.5rem;
+    background-color: grey;
+}
+
+header{
+    text-align: center;
+    margin: auto;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.centered {
+    margin-top: 8.5rem;
+    text-align: center;
+    width: 50rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.62);
+}
+
+h1 {
+    color: black;
+    font-weight: 15rem;
+    font-size: 2.62rem;
+    line-height: 1.1;
+    margin-top: 2rem;
+}
+
+h2 {
+    color: black;
+    font-weight: 15rem;
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 0.5rem;
+    font-weight: 15rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.btn--default {
+    padding: 0.6rem 1.2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 17rem;
+    transition: opacity 0.3s;
+    background-color: blueviolet;
+    margin: auto;
+    cursor: pointer;
+}
+
+.btn--default:hover {
+    opacity: 0.9;
+}
+
+.btn--default:active {
+    opacity: 1;
+}
+
+footer {
+    text-align: center;
+    border-top: 0.2rem solid grey;
+    margin-top: 1.375rem;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-top: 1.375rem;
+}
